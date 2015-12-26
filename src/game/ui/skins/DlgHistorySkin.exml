@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="640" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group height="361" width="610" verticalCenter="0" horizontalCenter="0">
+		<e:UIAsset x="0" y="0" width="610" height="361" source="resource/assets/bg_new/bg_black_history.png"/>
+		<e:Label text="历史组合" size="25" y="51" x="118"/>
+		<e:Label text="历史赔率" size="25" y="49" x="341"/>
+		<e:Group height="244" width="500" y="89" x="33">
+			<e:Group height="44" width="500" y="69" x="33">
+				<e:Label text="2-4" x="56" y="8"/>
+				<e:UIAsset source="resource/assets/icon_new/icon_horse_black.png" x="113" y="0"/>
+				<e:UIAsset source="resource/assets/icon_new/icon_horse_blue.png" x="163" y="0"/>
+				<e:Label text="x40" x="333" y="8"/>
+			</e:Group>
+			<e:Group width="500" height="44" x="43" y="79">
+				<e:Label y="8" text="2-4" x="56"/>
+				<e:UIAsset source="resource/assets/icon_new/icon_horse_black.png" y="0" x="113"/>
+				<e:UIAsset source="resource/assets/icon_new/icon_horse_blue.png" y="0" x="163"/>
+				<e:Label y="8" text="x40" x="333"/>
+			</e:Group>
+			<e:Group width="500" height="44" x="53" y="89">
+				<e:Label y="8" text="2-4" x="56"/>
+				<e:UIAsset source="resource/assets/icon_new/icon_horse_black.png" y="0" x="113"/>
+				<e:UIAsset source="resource/assets/icon_new/icon_horse_blue.png" y="0" x="163"/>
+				<e:Label y="8" text="x40" x="333"/>
+			</e:Group>
+			<e:Group width="500" height="44" x="63" y="99">
+				<e:Label y="8" text="2-4" x="56"/>
+				<e:UIAsset source="resource/assets/icon_new/icon_horse_black.png" y="0" x="113"/>
+				<e:UIAsset source="resource/assets/icon_new/icon_horse_blue.png" y="0" x="163"/>
+				<e:Label y="8" text="x40" x="333"/>
+			</e:Group>
+			<e:Group width="500" height="44" x="73" y="109">
+				<e:Label y="8" text="2-4" x="56"/>
+				<e:UIAsset source="resource/assets/icon_new/icon_horse_black.png" y="0" x="113"/>
+				<e:UIAsset source="resource/assets/icon_new/icon_horse_blue.png" y="0" x="163"/>
+				<e:Label y="8" text="x40" x="333"/>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Label text="历史记录" x="247" y="3"/>
+		<e:Button id="closeBtn" x="565" y="13" skinName="@ButtonSkin('resource/assets/btn_new/btn_close_normal.png','resource/assets/btn_new/btn_close_clicked.png')" width="44" height="44"/>
+	</e:Group>
+</e:Skin>

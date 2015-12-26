@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Egret</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.web.js" src-release="libs/modules/game/game.web.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/gui/gui.js" src-release="libs/modules/gui/gui.min.js"></script>
+	<script egret="lib" src="libs/modules/dragonbones/dragonbones.js" src-release="libs/modules/dragonbones/dragonbones.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件-->
+    <!--game_files_start-->
+	<script egret="game" src="bin-debug/base/AssetAdapter.js"></script>
+	<script egret="game" src="bin-debug/base/BaseLoader.js"></script>
+	<script egret="game" src="bin-debug/base/BaseType.js"></script>
+	<script egret="game" src="bin-debug/base/Debug.js"></script>
+	<script egret="game" src="bin-debug/base/Geometry.js"></script>
+	<script egret="game" src="bin-debug/base/HttpRequest.js"></script>
+	<script egret="game" src="bin-debug/base/MapSite.js"></script>
+	<script egret="game" src="bin-debug/base/Newton.js"></script>
+	<script egret="game" src="bin-debug/base/Utils.js"></script>
+	<script egret="game" src="bin-debug/game/AI/AIDefine.js"></script>
+	<script egret="game" src="bin-debug/game/AI/RoleAI.js"></script>
+	<script egret="game" src="bin-debug/game/audio/GameSound.js"></script>
+	<script egret="game" src="bin-debug/game/config/RoleConfig.js"></script>
+	<script egret="game" src="bin-debug/game/dataMgr/SelHorseMgr.js"></script>
+	<script egret="game" src="bin-debug/game/Game.js"></script>
+	<script egret="game" src="bin-debug/game/GameDef.js"></script>
+	<script egret="game" src="bin-debug/game/GameEvent.js"></script>
+	<script egret="game" src="bin-debug/game/GameRuleJudge.js"></script>
+	<script egret="game" src="bin-debug/game/horse/Horse.js"></script>
+	<script egret="game" src="bin-debug/game/map/DlgSelRoleSkin.g.js"></script>
+	<script egret="game" src="bin-debug/game/map/Scene.js"></script>
+	<script egret="game" src="bin-debug/game/Role/Role.js"></script>
+	<script egret="game" src="bin-debug/game/Role/Enemey.js"></script>
+	<script egret="game" src="bin-debug/game/Role/Player.js"></script>
+	<script egret="game" src="bin-debug/game/Role/RoleDefine.js"></script>
+	<script egret="game" src="bin-debug/game/Role/RoleFactory.js"></script>
+	<script egret="game" src="bin-debug/game/skill/SkillConfig.js"></script>
+	<script egret="game" src="bin-debug/game/skill/SkillMgr.js"></script>
+	<script egret="game" src="bin-debug/game/ui/DlgController.js"></script>
+	<script egret="game" src="bin-debug/game/ui/DlgHistory.js"></script>
+	<script egret="game" src="bin-debug/game/ui/DlgHorseInfo.js"></script>
+	<script egret="game" src="bin-debug/game/ui/DlgPlayRule.js"></script>
+	<script egret="game" src="bin-debug/game/ui/DlgPushMoeny.js"></script>
+	<script egret="game" src="bin-debug/game/ui/DlgRank.js"></script>
+	<script egret="game" src="bin-debug/game/ui/DlgSelectHorse.js"></script>
+	<script egret="game" src="bin-debug/game/ui/DlgSelPlayMethod.js"></script>
+	<script egret="game" src="bin-debug/game/ui/DlgSelRole.js"></script>
+	<script egret="game" src="bin-debug/game/ui/LoadingUI.js"></script>
+	<script egret="game" src="bin-debug/game/ui/SelectScroll.js"></script>
+	<script egret="game" src="bin-debug/game/ui/skins/ButtonASkin.g.js"></script>
+	<script egret="game" src="bin-debug/game/ui/skins/ButtonBSkin.g.js"></script>
+	<script egret="game" src="bin-debug/game/ui/skins/ButtonSkin.g.js"></script>
+	<script egret="game" src="bin-debug/game/ui/skins/CheckSelRoleSkin.g.js"></script>
+	<script egret="game" src="bin-debug/game/ui/skins/DlgControllerSkin.g.js"></script>
+	<script egret="game" src="bin-debug/game/ui/skins/DlgHistorySkin.g.js"></script>
+	<script egret="game" src="bin-debug/game/ui/skins/DlgHorseInfoSkin.g.js"></script>
+	<script egret="game" src="bin-debug/game/ui/skins/DlgPlayRuleSkin.g.js"></script>
+	<script egret="game" src="bin-debug/game/ui/skins/DlgPushMoneySkin.g.js"></script>
+	<script egret="game" src="bin-debug/game/ui/skins/DlgRankSkin.g.js"></script>
+	<script egret="game" src="bin-debug/game/ui/skins/DlgRewardSkin.g.js"></script>
+	<script egret="game" src="bin-debug/game/ui/skins/DlgSelectHorseSkin.g.js"></script>
+	<script egret="game" src="bin-debug/game/ui/skins/DlgSelPlayMethodSkin.g.js"></script>
+	<script egret="game" src="bin-debug/game/ui/skins/DlgSelRoleSkin.g.js"></script>
+	<script egret="game" src="bin-debug/game/ui/skins/DownButtonSkin.g.js"></script>
+	<script egret="game" src="bin-debug/game/ui/skins/LeftButtonSkin.g.js"></script>
+	<script egret="game" src="bin-debug/game/ui/skins/RightButtonSkin.g.js"></script>
+	<script egret="game" src="bin-debug/game/ui/skins/UpButtonSkin.g.js"></script>
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/ThemeAdapter.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="showAll"
+         data-resolution-mode="retina"
+         data-frame-rate="60"
+         data-content-width="1136"
+         data-content-height="640"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-log-filter="" data-show-fps-style="x:0,y:0,size:30">
+    </div>
+    <script>
+        egret.runEgret();
+    </script>
+</body>
+</html>

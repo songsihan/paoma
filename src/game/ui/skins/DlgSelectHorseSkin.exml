@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="640" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group height="52" width="1136" x="1" y="28">
+		<e:Button x="338" y="12" skinName="@ButtonSkin('resource/assets/btn_paoma/btn_game_rule_normal.png','resource/assets/btn_paoma/btn_game_rule_clicked.png')"/>
+		<e:Group height="52" width="171" x="140" y="127">
+			<e:UIAsset source="resource/assets/bg_paoma/bg_black_countdown.png" x="0" y="1"/>
+			<e:Label text="倒计时" x="2" y="14" size="21"/>
+			<e:Label id="countDownLabel" text="10:00" x="85" y="15" width="74" height="40" size="21"/>
+		</e:Group>
+		<e:Button x="0" y="0" width="97" skinName="@ButtonSkin('resource/assets/btn_paoma/btn_history_normal.png','resource/assets/btn_paoma/btn_reselect_clicked.png')"/>
+		<e:layout>
+			<e:HorizontalLayout gap="250" paddingLeft="100" paddingRight="100"/>
+		</e:layout>
+	</e:Group>
+	<e:Group height="313" width="1136" x="0" y="100">
+		<e:Group height="308" width="208" x="369" y="166" size="30">
+			<e:UIAsset x="0" y="0" source="resource/assets/bg_paoma/bg_black_horse_selection.png"/>
+			<e:Label text="汗血马" x="52" y="33"/>
+			<e:Button id="push1" width="110" height="50" x="48" y="234" skinName="@ButtonSkin('resource/assets/btn_paoma/btn_bet_normal.png','resource/assets/btn_paoma/btn_bet_clicked.png','resource/assets/btn_paoma/btn_bet_clicked.png')"/>
+			<e:UIAsset source="resource/assets/img_paoma/horse_white.png" x="43" y="70"/>
+			<e:UIAsset source="resource/assets/img_paoma/label_speed.png" x="127" y="185"/>
+		</e:Group>
+		<e:Group height="308" width="208" size="30" x="379" y="176">
+			<e:UIAsset source="resource/assets/bg_paoma/bg_black_horse_selection.png" y="0" x="0"/>
+			<e:Label y="33" text="汗血马" x="52"/>
+			<e:Button id="push2" y="234" x="48" width="110" height="50" skinName="@ButtonSkin('resource/assets/btn_paoma/btn_bet_normal.png','resource/assets/btn_paoma/btn_bet_clicked.png','resource/assets/btn_paoma/btn_bet_disable.png')"/>
+			<e:UIAsset source="resource/assets/img_paoma/horse_white.png" y="70" x="43"/>
+			<e:UIAsset y="185" x="127" source="resource/assets/img_paoma/label_explosive.png"/>
+		</e:Group>
+		<e:Group size="30" width="208" height="308" x="389" y="186">
+			<e:UIAsset source="resource/assets/bg_paoma/bg_black_horse_selection.png" y="0" x="0"/>
+			<e:Label y="33" text="汗血马" x="52"/>
+			<e:Button id="push3" y="234" x="48" width="110" height="50" skinName="@ButtonSkin('resource/assets/btn_paoma/btn_bet_normal.png','resource/assets/btn_paoma/btn_bet_clicked.png','resource/assets/btn_paoma/btn_bet_disable.png')"/>
+			<e:UIAsset source="resource/assets/img_paoma/horse_white.png" y="70" x="43"/>
+			<e:UIAsset y="185" x="127" source="resource/assets/img_paoma/label_power.png"/>
+		</e:Group>
+		<e:Group height="308" width="208" size="30" x="399" y="196">
+			<e:UIAsset source="resource/assets/bg_paoma/bg_black_horse_selection.png" y="0" x="0"/>
+			<e:Label y="33" text="汗血马" x="52"/>
+			<e:Button id="push4" width="110" height="50" x="47" y="233" skinName="@ButtonSkin('resource/assets/btn_paoma/btn_bet_normal.png','resource/assets/btn_paoma/btn_bet_clicked.png','resource/assets/btn_paoma/btn_bet_disable.png')"/>
+			<e:UIAsset source="resource/assets/img_paoma/horse_white.png" y="70" x="43"/>
+			<e:UIAsset y="185" x="127" source="resource/assets/img_paoma/label_endurance.png"/>
+		</e:Group>
+		<e:Group size="30" width="208" height="308" x="409" y="206">
+			<e:UIAsset source="resource/assets/bg_paoma/bg_black_horse_selection.png" y="0" x="0"/>
+			<e:Label y="33" text="汗血马" x="52"/>
+			<e:Button id="push5" y="234" x="48" width="110" height="50" skinName="@ButtonSkin('resource/assets/btn_paoma/btn_bet_normal.png','resource/assets/btn_paoma/btn_bet_clicked.png','resource/assets/btn_paoma/btn_bet_disable.png')"/>
+			<e:UIAsset source="resource/assets/img_paoma/horse_white.png" y="70" x="43"/>
+			<e:UIAsset y="185" x="127" source="resource/assets/img_paoma/label_endurance.png"/>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout gap="15" paddingLeft="20"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

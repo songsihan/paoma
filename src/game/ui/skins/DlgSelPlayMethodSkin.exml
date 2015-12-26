@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="640" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group height="52" width="1136" x="1" y="28">
+		<e:Button id="resetBtn" x="338" y="12" skinName="@ButtonSkin('resource/assets/btn_paoma/btn_reselect_normal.png','resource/assets/btn_paoma/btn_reselect_clicked.png')"/>
+		<e:Group height="52" width="171" x="140" y="127">
+			<e:UIAsset source="resource/assets/bg_paoma/bg_black_countdown.png" x="0" y="1"/>
+			<e:Label text="倒计时" x="2" y="14" size="21"/>
+			<e:Label id="countDownLabel" text="10:00" x="85" y="15" width="74" height="40" size="21"/>
+		</e:Group>
+		<e:Button id="hisstoryBtn" x="0" y="0" width="97" skinName="@ButtonSkin('resource/assets/btn_paoma/btn_history_normal.png','resource/assets/btn_paoma/btn_history_clicked.png')"/>
+		<e:layout>
+			<e:HorizontalLayout gap="250" paddingLeft="100" paddingRight="100"/>
+		</e:layout>
+	</e:Group>
+	<e:Group height="313" width="1136" x="0" y="100">
+		<e:Group height="313" width="260" x="369" y="166" size="30">
+			<e:UIAsset source="resource/assets/bg_paoma/bg_black_game_selection.png" x="0" y="0"/>
+			<e:Label text="一星" x="98" y="41" textColor="0xE8D50E"/>
+			<e:Label text="有且只能押注一匹马，该马跑第一名既中奖" x="33" y="86" height="100" width="200" size="25"/>
+			<e:Button id="selOneStarBtn" x="74" y="232" width="110" height="50" skinName="@ButtonSkin('resource/assets/btn_paoma/btn_choose_normal.png','resource/assets/btn_paoma/btn_choose_clicked.png','resource/assets/btn_paoma/btn_choose_disable.png')"/>
+			<e:Button id="seledOneStarBtn" x="66" skinName="@ButtonSkin('resource/assets/btn_paoma/btn_chosen_normal.png','resource/assets/btn_paoma/btn_chosen_normal.png')" y="231" visible="false"/>
+		</e:Group>
+		<e:Group height="313" width="260" size="30" x="379" y="176">
+			<e:UIAsset source="resource/assets/bg_paoma/bg_black_game_selection.png" y="0" x="0"/>
+			<e:Label y="41" textColor="0xE8D50E" x="98" text="二星"/>
+			<e:Label y="86" height="120" width="200" size="25" x="33" text="有且只能押注两匹马，比赛完后前三名中有这两匹马既中奖"/>
+			<e:Button id="selTwoStarBtn" x="74" width="110" y="232" height="50" skinName="@ButtonSkin('resource/assets/btn_paoma/btn_choose_normal.png','resource/assets/btn_paoma/btn_choose_clicked.png','resource/assets/btn_paoma/btn_choose_disable.png')"/>
+			<e:Button id="seledTwoStarBtn" skinName="@ButtonSkin('resource/assets/btn_paoma/btn_chosen_normal.png','resource/assets/btn_paoma/btn_chosen_normal.png')" x="72" y="231" visible="false"/>
+		</e:Group>
+		<e:Group size="30" width="260" height="313" x="389" y="186">
+			<e:UIAsset source="resource/assets/bg_paoma/bg_black_game_selection.png" y="0" x="0"/>
+			<e:Label y="41" textColor="0xE8D50E" x="98" text="三星"/>
+			<e:Label y="86" size="25" width="200" height="120" x="33" text="有且只能押注三匹马，比赛完后前三名必须有这三匹马既中奖"/>
+			<e:Button id="seledThreeStarBtn" skinName="@ButtonSkin('resource/assets/btn_paoma/btn_chosen_normal.png','resource/assets/btn_paoma/btn_chosen_normal.png')" y="231" x="69" visible="false"/>
+			<e:Button id="selThreeStarBtn" skinName="@ButtonSkin('resource/assets/btn_paoma/btn_choose_normal.png','resource/assets/btn_paoma/btn_choose_clicked.png','resource/assets/btn_paoma/btn_choose_disable.png')" width="110" y="232" height="50" x="77"/>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout paddingLeft="85" gap="100"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

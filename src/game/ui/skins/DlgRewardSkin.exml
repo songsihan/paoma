@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="640" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group height="348" width="610" verticalCenter="0" horizontalCenter="0">
+		<e:UIAsset source="resource/assets/bg_new/bg_black.png" x="0" y="0"/>
+		<e:Button x="567" y="1" skinName="@ButtonSkin('resource/assets/btn_new/btn_close_normal.png','resource/assets/btn_new/btn_close_clicked.png')" width="44" height="44"/>
+		<e:Label text="恭喜你！中奖了！" x="183" y="40"/>
+		<e:Group height="44" width="94" y="114" x="191">
+			<e:UIAsset source="resource/assets/bg_new/bg_number_1.png" x="0" y="0"/>
+			<e:UIAsset source="resource/assets/icon_new/icon_horse_blue.png" x="-1" y="1"/>
+			<e:Label text="1" x="57" y="5"/>
+		</e:Group>
+		<e:Group width="94" height="44" x="334" y="114">
+			<e:UIAsset y="0" x="0" source="resource/assets/bg_new/bg_number_2.png"/>
+			<e:UIAsset y="1" x="-1" source="resource/assets/icon_new/icon_horse_orange.png"/>
+			<e:Label y="5" x="57" text="2"/>
+		</e:Group>
+		<e:Label text="X20" x="280" y="179"/>
+		<e:Group height="200" width="200" x="199" y="230"/>
+		<e:Group height="100" width="610" x="0" y="221">
+			<e:Label text="您押注：" x="59" y="0"/>
+			<e:Label text="400" x="200" y="0"/>
+			<e:Label text="押中：" x="378" y="0"/>
+			<e:Label text="1" x="483" y="0"/>
+			<e:Label text="赢得：" x="68" y="60"/>
+			<e:Label text="8000" x="175" y="60"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="640" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableContainer"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:UIAsset width="1136" height="640" source="resource/assets/bigImg/bg_role_choice.jpg" x="0" y="0"/>
+	<e:UIAsset id="imgSelRole" width="924" height="636" x="-67" y="3" source="resource/assets/role/fulong.png"/>
+	<e:UIAsset source="resource/assets/UI/bg/bg_start.png" width="300" touchEnabled="true" x="820" height="113" y="501"/>
+	<e:Button id="btnFight" width="210" height="78" textColor="0xFA0101" fontFamily="Shonar Bangla" verticalAlign="top" bold="true" italic="true" textAlign="left" skinName="@ButtonSkin('resource/assets/UI/btn/btn_start_normal.png','resource/assets/UI/btn/btn_start_clicked.png')" x.disabled="933" y.disabled="550" x="872" y="522"/>
+	<e:UIAsset id="imgRoleName" x="135" y="33" source="resource/assets/UI/pic/role_name_0.png"/>
+	<e:UIAsset source="resource/assets/UI/icon/icon_role_info.png" x="71" y="453"/>
+	<e:UIAsset id="imgRoleInfo" source="resource/assets/UI/pic/role_info_0.png" x="80" y="127" width="201" height="167" autoScale="false"/>
+	<e:UIAsset id="imgSelectedBorder" verticalAlign="middle" height="387" fillMode="repeat" width="508" touchEnabled="true" autoScale="true" x="806" y="93" source="resource/assets/UI/bg/bg_select_role.png"/>
+</e:Skin>

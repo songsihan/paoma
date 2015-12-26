@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="640" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset height="640" width="1136" source="resource/assets/bg_new/bg_big_color.png" x="0" y="0"/>
+	<e:Button includeIn="normal" y="24" x="36" enabled="true" skinName="@ButtonSkin('resource/assets/btn_new/btn_closeplay_normal.png','resource/assets/btn_new/btn_closeplay_normal.png')"/>
+	<e:Group height="435" width="595" y="24" x="279">
+		<e:UIAsset source="resource/assets/bg_new/bg_black_horse.png" y="0" width="595" height="170" x="0"/>
+		<e:Group height="170" width="595" includeIn="normal" x="0" y="0">
+			<e:Group height="166" width="95" x="0" y="7">
+				<e:UIAsset source="resource/assets/img_new/horse_blue.png" x="1" y="10"/>
+				<e:Label text="汗血马" size="25" y="130" x="6"/>
+			</e:Group>
+			<e:Group width="95" height="166" x="10" y="17">
+				<e:UIAsset source="resource/assets/img_new/horse_blue.png" y="10" x="1"/>
+				<e:Label y="130" size="25" text="汗血马" x="6"/>
+			</e:Group>
+			<e:Group width="95" height="166" x="20" y="27">
+				<e:UIAsset source="resource/assets/img_new/horse_blue.png" y="10" x="1"/>
+				<e:Label y="130" size="25" text="汗血马" x="6"/>
+			</e:Group>
+			<e:Group width="95" height="166" x="30" y="37">
+				<e:UIAsset source="resource/assets/img_new/horse_blue.png" y="10" x="1"/>
+				<e:Label y="130" size="25" text="汗血马" x="6"/>
+			</e:Group>
+			<e:Group width="95" height="166" x="40" y="47">
+				<e:UIAsset source="resource/assets/img_new/horse_blue.png" y="10" x="1"/>
+				<e:Label y="130" size="25" text="汗血马" x="6"/>
+			</e:Group>
+			<e:layout>
+				<e:HorizontalLayout paddingLeft="20" gap="20"/>
+			</e:layout>
+		</e:Group>
+		<e:Group height="255" width="595" x="0" y="180">
+			<e:Group height="59" width="595" x="0" y="0">
+				<e:Group height="59" width="137" x="0" y="0">
+					<e:Button id="btn1" x="0" y="0" skinName="@ButtonSkin('resource/assets/btn_new/btn_green.png')" size="25" verticalAlign="top"/>
+					<e:UIAsset id="selImage1" source="resource/assets/btn_new/btn_blue.png" x="0" y="0" visible="false"/>
+					<e:Label text="1-5" x="2" y="12" enabled="false" focusEnabled="false" touchEnabled="false"/>
+					<e:Label x="69" y="12" textColor="0x1C1503" text="x10" enabled="false" focusEnabled="false" touchEnabled="false"/>
+				</e:Group>
+				<e:Group width="137" height="59" x="10" y="10">
+					<e:Button id="btn2" y="0" skinName="@ButtonSkin('resource/assets/btn_new/btn_green.png')" size="25" verticalAlign="top" x="0"/>
+					<e:UIAsset id="selImage2" source="resource/assets/btn_new/btn_blue.png" y="0" x="0" visible="false"/>
+					<e:Label y="12" text="1-5" x="2" touchEnabled="false"/>
+					<e:Label y="12" textColor="0x1C1503" text="x10" x="69" touchEnabled="false"/>
+				</e:Group>
+				<e:Group width="137" height="59" x="20" y="20">
+					<e:Button id="btn3" y="0" skinName="@ButtonSkin('resource/assets/btn_new/btn_green.png')" size="25" verticalAlign="top" x="0"/>
+					<e:UIAsset id="selImage3" source="resource/assets/btn_new/btn_blue.png" y="0" x="0" visible="false"/>
+					<e:Label y="12" text="1-5" x="2" touchEnabled="false"/>
+					<e:Label y="12" textColor="0x1C1503" text="x10" x="69" touchEnabled="false"/>
+				</e:Group>
+				<e:Group width="137" height="59" x="30" y="30">
+					<e:Button id="btn4" y="0" skinName="@ButtonSkin('resource/assets/btn_new/btn_green.png')" size="25" verticalAlign="top" x="0"/>
+					<e:UIAsset id="selImage4" source="resource/assets/btn_new/btn_blue.png" y="0" x="0" visible="false"/>
+					<e:Label y="12" text="1-5" x="2" touchEnabled="false"/>
+					<e:Label y="12" textColor="0x1C1503" text="x10" x="69" touchEnabled="false"/>
+				</e:Group>
+				<e:layout>
+					<e:HorizontalLayout gap="15"/>
+				</e:layout>
+			</e:Group>
+			<e:Group width="595" height="59" x="10" y="10">
+				<e:Group width="137" y="0" height="59" x="0">
+					<e:Button id="btn5" y="0" skinName="@ButtonSkin('resource/assets/btn_new/btn_green.png')" size="25" verticalAlign="top" x="0"/>
+					<e:UIAsset id="selImage5" source="resource/assets/btn_new/btn_blue.png" y="0" x="0" visible="false"/>
+					<e:Label y="12" text="1-5" x="2" touchEnabled="false"/>
+					<e:Label y="12" textColor="0x1C1503" text="x10" x="69" touchEnabled="false"/>
+				</e:Group>
+				<e:Group width="137" y="10" height="59" x="10">
+					<e:Button id="btn6" y="0" skinName="@ButtonSkin('resource/assets/btn_new/btn_green.png')" size="25" verticalAlign="top" x="0"/>
+					<e:UIAsset id="selImage6" source="resource/assets/btn_new/btn_blue.png" y="0" x="0" visible="false"/>
+					<e:Label y="12" text="1-5" x="2" touchEnabled="false"/>
+					<e:Label y="12" textColor="0x1C1503" text="x10" x="69" touchEnabled="false"/>
+				</e:Group>
+				<e:Group width="137" y="20" height="59" x="20">
+					<e:Button id="btn7" y="0" skinName="@ButtonSkin('resource/assets/btn_new/btn_green.png')" size="25" verticalAlign="top" x="0"/>
+					<e:UIAsset id="selImage7" source="resource/assets/btn_new/btn_blue.png" y="0" x="0" visible="false"/>
+					<e:Label y="12" text="1-5" x="2" touchEnabled="false"/>
+					<e:Label y="12" textColor="0x1C1503" text="x10" x="69" touchEnabled="false"/>
+				</e:Group>
+				<e:layout>
+					<e:HorizontalLayout gap="15"/>
+				</e:layout>
+			</e:Group>
+			<e:Group width="595" height="59" x="20" y="20">
+				<e:Group width="137" y="0" height="59" x="0">
+					<e:Button id="btn8" y="0" skinName="@ButtonSkin('resource/assets/btn_new/btn_green.png')" size="25" verticalAlign="top" x="0"/>
+					<e:UIAsset id="selImage8" source="resource/assets/btn_new/btn_blue.png" y="0" x="0" visible="false"/>
+					<e:Label y="12" text="1-5" x="2" touchEnabled="false"/>
+					<e:Label y="12" textColor="0x1C1503" text="x10" x="69" touchEnabled="false"/>
+				</e:Group>
+				<e:Group width="137" y="10" height="59" x="10">
+					<e:Button id="btn9" y="0" skinName="@ButtonSkin('resource/assets/btn_new/btn_green.png')" size="25" verticalAlign="top" x="0"/>
+					<e:UIAsset id="selImage9" source="resource/assets/btn_new/btn_blue.png" y="0" x="0" visible="false"/>
+					<e:Label y="12" text="1-5" x="2" touchEnabled="false"/>
+					<e:Label y="12" textColor="0x1C1503" text="x10" x="69" touchEnabled="false"/>
+				</e:Group>
+				<e:Group width="289" height="59" x="20" y="20">
+					<e:UIAsset y="0" x="0" source="resource/assets/bg_new/bg_choose_orange.png" width="289" height="59"/>
+					<e:Label text="玩家总注：" size="25" y="15" x="5"/>
+					<e:Label id="labelTatolMoney" textColor="0x1C1503" x="173" text="x1000" size="25" y="16"/>
+				</e:Group>
+				<e:layout>
+					<e:HorizontalLayout gap="15"/>
+				</e:layout>
+			</e:Group>
+			<e:Group width="595" height="59" x="30" y="30" size="25">
+				<e:Group width="137" y="0" height="59" x="0">
+					<e:Button id="btn10" y="0" skinName="@ButtonSkin('resource/assets/btn_new/btn_green.png')" size="25" verticalAlign="top" x="0"/>
+					<e:UIAsset id="selImage10" source="resource/assets/btn_new/btn_blue.png" y="0" x="0" visible="false"/>
+					<e:Label y="12" text="1-5" x="2" touchEnabled="false"/>
+					<e:Label y="12" textColor="0x1C1503" text="x10" x="69" touchEnabled="false"/>
+				</e:Group>
+				<e:Group width="441" height="59" x="10" y="10">
+					<e:UIAsset y="0" x="0" source="resource/assets/bg_new/bg_choose_orange.png" width="441" height="59"/>
+					<e:Label x="2" text="下注金额：" y="14"/>
+					<e:Button id="btn100" skinName="@ButtonSkin('resource/assets/icon_new/icon_chip_yellow.png')" width="55" label="100" verticalAlign="middle" textColor="0xF37713" size="21" verticalCenter="0" x="152"/>
+					<e:Button id="btn1000" skinName="@ButtonSkin('resource/assets/icon_new/icon_chip_blue.png','resource/assets/icon_new/icon_chip_blue.png')" width="55" height="55" textColor="0x12A6DD" size="21" label="1千" verticalCenter="0" x="228"/>
+					<e:Button id="btn5000" textColor="0x12A6DD" skinName="@ButtonSkin('resource/assets/icon_new/icon_chip_blue.png','resource/assets/icon_new/icon_chip_blue.png')" width="55" height="55" size="21" x="306" y="10" verticalCenter="0" label="5千"/>
+					<e:Button id="btn10000" textColor="0x12A6DD" skinName="@ButtonSkin('resource/assets/icon_new/icon_chip_blue.png','resource/assets/icon_new/icon_chip_blue.png')" width="55" height="55" size="21" x="386" y="20" verticalCenter="0" label="1万"/>
+				</e:Group>
+				<e:layout>
+					<e:HorizontalLayout gap="15"/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Button id="btnHistory" x="981" y="24" skinName="@ButtonSkin('resource/assets/btn_new/btn_history_normal.png','resource/assets/btn_new/btn_history_clicked.png')"/>
+	<e:Button id="btnPlayRule" x="982" y="96" skinName="@ButtonSkin('resource/assets/btn_new/btn_game_rule_normal.png','resource/assets/btn_new/btn_game_rule_normal.png')"/>
+	<e:Group width="171" height="52" x="18" y="193">
+		<e:UIAsset source="resource/assets/bg_paoma/bg_black_countdown.png" y="1" x="0"/>
+		<e:Label y="14" size="21" text="倒计时" x="2"/>
+		<e:Label id="countDownLabel" y="15" size="21" text="10:00" x="85" width="74" height="40"/>
+	</e:Group>
+</e:Skin>

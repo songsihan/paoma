@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="277" height="106" height.upAndSelected="173" width.upAndSelected="209" height.downAndSelected="173" width.downAndSelected="208">
+	<w:HostComponent name="egret.gui.CheckBox"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="up"/>
+<e:State name="down"/>
+<e:State name="disabled"/>
+<e:State name="upAndSelected"/>
+<e:State name="downAndSelected"/>
+<e:State name="disabledAndSelected"/>
+</e:states>
+	<e:UIAsset width="277" height="106" left.upAndSelected="-1" top.upAndSelected="-1" left.downAndSelected="0" top.downAndSelected="0" source="resource/assets/UI/btn/btn_select_role.png" left="0" top="0"/>
+	<e:UIAsset source="resource/assets/UI/bg/bg_selecr_role.png" x="0" y="0" width="278" height="107"/>
+</e:Skin>

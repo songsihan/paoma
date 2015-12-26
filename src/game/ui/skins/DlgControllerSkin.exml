@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="640" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="resource/assets/UI/bg/bg_direct.png" width="193" height="196" x="63" y="408"/>
+	<e:Button id="btnUp" width="80" height="52" skinName="@ButtonSkin('resource/assets/UI/btn/btn_move_up.png','resource/assets/UI/btn/btn_move_up_clicked.png')" x="117" y="408"/>
+	<e:Button id="btnDown" width="80" height="52" skinName="@ButtonSkin('resource/assets/UI/btn/btn_move_down.png','resource/assets/UI/btn/btn_move_down_clicked.png')" x="122" y="543"/>
+	<e:Button id="btnRight" width="52" height="80" skinName="@ButtonSkin('resource/assets/UI/btn/btn_move_right.png','resource/assets/UI/btn/btn_move_right_clicked.png')" x="201" y="463"/>
+	<e:Button id="btnLeft" height="80" width="52" skinName="@ButtonSkin('resource/assets/UI/btn/btn_move_left.png','resource/assets/UI/btn/btn_move_left_clicked.png')" x="66" y="464"/>
+	
+	<e:UIAsset id="imgRoleHead" width="213" height="84" y="23" source="resource/assets/role/head_fulong_single.png" x="8"/>
+	<e:UIAsset source="resource/assets/UI/bg/bg_hero_left_borader.png" x="17" y="21"/>
+	<e:UIAsset x="178" y="62" source="resource/assets/UI/pic/progress_blood.png"/>
+	<e:UIAsset source="resource/assets/UI/pic/progress_energy.png" x="203" y="88"/>
+	<e:UIAsset id="img_attack" source="resource/assets/UI/btn/btn_battle.png" x="992" y="505" width="101" height="101"/>
+	<e:Button id="btnAttack" skinName="@ButtonSkin('resource/assets/UI/icon/icon_round.png','resource/assets/UI/icon/icon_round_clicked.png')" width="126" height="126" x="980" y="493"/>
+	<e:UIAsset id="img_skill_4" width="84" height="84" source="resource/assets/skill/fulong/icon_skill_14.png" x="1020" y="394"/>
+	<e:Button id="btnD" skinName="@ButtonSkin('resource/assets/UI/icon/icon_round.png','resource/assets/UI/icon/icon_round_clicked.png')" width="110" height="110" y="380" x="1008"/>
+	<e:UIAsset id="img_skill_3" source="resource/assets/skill/fulong/icon_skill_13.png" width="84" height="84" x="894" y="401"/>
+	<e:Button id="btnC" skinName="@ButtonSkin('resource/assets/UI/icon/icon_round.png','resource/assets/UI/icon/icon_round_clicked.png')" width="110" height="110" y="387" x="881"/>
+	<e:UIAsset id="img_skill_2" source="resource/assets/skill/fulong/icon_skill_12.png" width="84" height="84" x="871" y="520"/>
+	<e:Button id="btnB" skinName="@ButtonSkin('resource/assets/UI/icon/icon_round.png','resource/assets/UI/icon/icon_round_clicked.png')" width="110" height="110" y="507" x="857"/>
+	<e:UIAsset id="img_skill_1" source="resource/assets/skill/fulong/icon_skill_11.png" width="84" height="84" x="749" y="527"/>
+	<e:Button id="btnA" skinName="@ButtonSkin('resource/assets/UI/icon/icon_round.png','resource/assets/UI/icon/icon_round_clicked.png')" width="110" height="110" x="736" y="515"/>
+	<e:UIAsset id="img_stroke" x="1003" source="resource/assets/skill/fulong/icon_skill_15.png" y="237"/>
+	<e:Button id="btnStroke" skinName="@ButtonSkin('resource/assets/UI/icon/icon_round.png','resource/assets/UI/icon/icon_round_clicked.png')" x="990" y="223"/>
+</e:Skin>

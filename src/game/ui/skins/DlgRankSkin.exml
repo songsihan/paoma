@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="640" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group height="60" width="1136" x="0" y="0">
+		<e:UIAsset source="resource/assets/bg_new/bg_black_horse.png" x="0" y="0" width="1136" height="60"/>
+		<e:Group width="94" height="44" x="201" y="6">
+			<e:UIAsset source="resource/assets/bg_new/bg_number_1.png" y="0" x="0"/>
+			<e:UIAsset source="resource/assets/icon_new/icon_horse_blue.png" y="1" x="-1"/>
+			<e:Label id="labelFirst" y="5" text="1" x="57"/>
+		</e:Group>
+		<e:Group width="94" height="44" x="344" y="6">
+			<e:UIAsset source="resource/assets/bg_new/bg_number_2.png" y="0" x="0"/>
+			<e:UIAsset source="resource/assets/icon_new/icon_horse_orange.png" y="1" x="-1"/>
+			<e:Label id="labelSecond" y="5" text="2" x="57"/>
+		</e:Group>
+		<e:Group height="60" width="284" x="550" y="1">
+			<e:Group height="60" width="84" x="0" y="0">
+				<e:UIAsset source="resource/assets/bg_new/bg_choose_orange.png" x="0" y="2"/>
+				<e:Label text="1-2" x="15" y="-2"/>
+				<e:Label text="1万" x="16" y="27"/>
+			</e:Group>
+			<e:Group width="84" height="60" x="10" y="10">
+				<e:UIAsset source="resource/assets/bg_new/bg_choose_orange.png" y="2" x="0"/>
+				<e:Label y="-2" text="1-2" x="15"/>
+				<e:Label y="27" text="1万" x="16"/>
+			</e:Group>
+			<e:Group width="84" height="60" x="20" y="20">
+				<e:UIAsset source="resource/assets/bg_new/bg_choose_orange.png" y="2" x="0"/>
+				<e:Label y="-2" text="1-2" x="15"/>
+				<e:Label y="27" text="1万" x="16"/>
+			</e:Group>
+			<e:layout>
+				<e:HorizontalLayout gap="16"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

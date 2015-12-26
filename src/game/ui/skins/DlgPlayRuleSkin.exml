@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="640" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group height="348" width="610" x="241" y="178">
+		<e:UIAsset source="resource/assets/bg_new/bg_black.png" x="0" y="0"/>
+		<e:Button id="closeBtn" x="566" y="0" skinName="@ButtonSkin('resource/assets/btn_new/btn_close_normal.png','resource/assets/btn_new/btn_close_normal.png')" width="44" height="44"/>
+		<e:Label text="玩法" x="258" y="19"/>
+		<e:UIAsset source="resource/assets/img_new/introduce_1.png" x="65" y="95"/>
+		<e:UIAsset source="resource/assets/img_new/introduce_3.png" x="428" y="95"/>
+		<e:UIAsset source="resource/assets/img_new/introduce_2.png" x="248" y="95"/>
+		<e:Label text="1.选择押注额度" x="56" y="260" size="19"/>
+		<e:Label text="2.下注喜欢的组合" x="234" y="260" size="19"/>
+		<e:Label text="3.观看比赛获得结果" x="414" y="260" size="19"/>
+	</e:Group>
+</e:Skin>
